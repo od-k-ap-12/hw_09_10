@@ -12,8 +12,6 @@ using namespace std;
 
 int main()
 {
-    Parrot parrot1("parrottype", "parrothabitat", "parrotfood", 1);
-    parrot1.Print();
     list <Animal*> animals;
 
     bool exit = false;
